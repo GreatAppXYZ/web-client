@@ -1,6 +1,8 @@
 "use strict";
 
 var React = require('react');
+var Router = require('react-router');
+var Link = Router.Link;
 
 var imgStyle = {
     height: '30px',
@@ -12,13 +14,13 @@ var Header = React.createClass({
        return (
            <nav className="navbar navbar-default">
             <div className="container-fluid">
-                <a href="/" className="navbar-brand">
+                <Link to="app" className="navbar-brand">
                     <img src="images/logo.png" style={imgStyle}/>
-                </a>
+                </Link>
                 <ul className="nav navbar-nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/#authors">Authors</a></li>
-                    <li><a href="/#about">About</a></li>
+                    <li><Link to="app">Home</Link></li>
+                    <li><Link to="authors">Authors</Link></li>
+                    <li><Link to="about">About</Link></li>
                 </ul>
             </div>
            </nav>
