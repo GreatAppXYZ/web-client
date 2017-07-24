@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import * as courseActions from '../../actions/courseActions';
 import CourseList from './CourseList';
 import {browserHistory} from 'react-router';
+import LoadingDots from '../common/LoadingDots';
 
 class CoursesPage extends React.Component {
   constructor(props, context) {
@@ -17,12 +18,6 @@ class CoursesPage extends React.Component {
 
   render() {
     const {courses} = this.props;
-    if (courses.length === 0) {
-      return (<div>
-        <h1>Courses</h1>
-        <p>Loading...</p>
-      </div>);
-    }
     return (
       <div>
         <h1>Courses</h1>
