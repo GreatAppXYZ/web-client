@@ -19,7 +19,7 @@ const CourseList = ({courses}) => {
       )}
       </tbody>
     </table>
-  )
+  );
 };
 
 CourseList.propTypes = {

@@ -11,12 +11,11 @@ class CoursesPage extends React.Component {
 
   render() {
     const {courses} = this.props;
-    debugger;
     if(courses.length === 0) {
-      return <div>
+      return (<div>
         <h1>Courses</h1>
         <p>Loading...</p>
-      </div>
+      </div>);
     }
     return (
       <div>
