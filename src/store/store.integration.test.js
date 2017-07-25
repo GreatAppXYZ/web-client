@@ -22,5 +22,5 @@ describe('Store', function () {
      title: 'Clean Code'
    };
    expect(expected, actual);
- })
+ });
 });

@@ -49,6 +49,6 @@ describe('Async Actions', () => {
       expect(actions[0].type).toEqual(types.BEGIN_AJAX_CALL);
       expect(actions[1].type).toEqual(types.LOAD_COURSES_SUCCESS);
       done();
-    })
+    });
   });
 });
