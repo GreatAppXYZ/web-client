@@ -8,7 +8,7 @@ const GLOBALS = {
 
 export default {
   debug: true,
-  devtool: 'source-map',
+  devtool: 'eval',
   noInfo: false,
   entry: path.resolve(__dirname, 'src/index'),
   target: 'web',

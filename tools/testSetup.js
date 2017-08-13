@@ -48,4 +48,10 @@ global.navigator = {
   userAgent: 'node.js'
 };
 
+global.Headers = class Headers{};
+global.Headers.prototype.append = function () {};
+global.sessionStorage = class sessionStorage{};
+global.sessionStorage.getItem = function () {};
+global.fetch = function () {return {then: function () {return {catch: function () {}};}};};
+
 documentRef = document;  //eslint-disable-line no-undef

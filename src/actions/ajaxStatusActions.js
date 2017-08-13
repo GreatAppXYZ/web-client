@@ -1,3 +1,4 @@
+/*eslint-disable import/no-duplicates*/
 import * as types from './actionTypes';
 
 export function beginAjaxCall() {
