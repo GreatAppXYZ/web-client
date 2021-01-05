@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/GreatAppXYZ/web-client#readme",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "6.2.4",
